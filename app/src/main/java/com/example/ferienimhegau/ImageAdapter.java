@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class ImageAdapter extends PagerAdapter {
     private Context mContext;
-    private int[] mImageIds = new int[]{R.drawable.wohnzimmer, R.drawable.hohentwiel, R.drawable.hontes};
+    private int[] mImageIds = new int[]{R.drawable.das_haus_im_sommer, R.drawable.das_haus_im_herbst, R.drawable.die_gartenseite, R.drawable.blick_auf_die_terrasse, R.drawable.schlafzimmer, R.drawable.wohnzimmer, R.drawable.voll_ausgestattete_k_che};
 
     ImageAdapter(Context context) {
         mContext = context;
