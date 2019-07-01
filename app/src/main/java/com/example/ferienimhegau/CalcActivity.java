@@ -19,7 +19,7 @@ public class CalcActivity extends AppCompatActivity {
     private EditText night;
     private TextView endtext;
     private Button button;
-    private int adults, children, nights;
+    private int adults, children, nights, nightMod, pplMod;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +65,14 @@ public class CalcActivity extends AppCompatActivity {
                 adults = Integer.parseInt(adult.getSelectedItem().toString());
                 children = Integer.parseInt(child.getSelectedItem().toString());
                 String content = night.getText().toString();
-                nights = Integer.parseInt(content);
+                try {
+                    nights = Integer.parseInt(content);
+                }
+                catch (NumberFormatException e) {
+                    Toast toast = Toast.makeText(getApplicationContext(),R.string.calc_error_toast, Toast.LENGTH_SHORT);
+                    toast.show();
+                    return;
+                }
                 endtext = findViewById(R.id.textView6);
 
                 if (adults + children > 5) {
@@ -73,8 +80,37 @@ public class CalcActivity extends AppCompatActivity {
                     endtext.setText(R.string.calc_error);
                     endtext.setVisibility(View.VISIBLE);
                 } else {
-
-                    endtext.setText("100€");
+                    switch (nights) {
+                        case 0:
+                            nightMod = 0;
+                            break;
+                        case 1: case 2: case 3:
+                            nightMod = 60;
+                            break;
+                        case 4: case 5: case 6: case 7:
+                            nightMod = 50;
+                            break;
+                        default:
+                            nightMod = 45;
+                            break;
+                    }
+                    switch (adults + children) {
+                        case 0: case 1: case 2:
+                            pplMod = 0;
+                            break;
+                        case 3: case 4: case 5:
+                            pplMod = 15;
+                            break;
+                        default:
+                            Toast toast2 = Toast.makeText(getApplicationContext(),R.string.calc_error_toast, Toast.LENGTH_SHORT);
+                            toast2.show();
+                            return;
+                    }
+                    int price = nights * nightMod;
+                    int more = pplMod * (adults + children - 2) * nights;
+                    price = price + more - (children * nights * 5);
+                    String out = price + "€";
+                    endtext.setText(out);
                     endtext.setVisibility(View.VISIBLE);
                 }
             }

@@ -21,4 +21,10 @@
     <string name="calc_headn">Number of nights</string>
     <string name="calc_button">Calculate!</string>
     <string name="calc_error">Wrong Parameters (Max 5 people)</string>
+    <string name="calc_error_toast">No number of nights!</string>
+
+    <string name="gallery_header">Gallery</string>
+
+    <string name="hello">Welcome in Gottmadingen in the Hegau!</string>
+    <string name="hello2">In our holiday home you can relax and explore the beautiful countryside, such as the Rheinfall or the Mainau. You can go for a swim in lake Konstanz or even go hiking in the alps.</string>
 </resources>
