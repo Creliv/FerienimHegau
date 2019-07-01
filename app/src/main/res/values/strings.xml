@@ -10,9 +10,12 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_calc">Calculator</string>
-    <string name="menu_tools">Tools</string>
+    <string name="menu_tools">Infos</string>
     <string name="menu_mail">Mail</string>
     <string name="menu_call">Call</string>
+    <string name="menu_map">Maps</string>
+    <string name="menu_kalender">Calender</string>
+
 
     <string name="email_subject">Holiday apartment enquiry</string>
     <string name="calc_header">price calculator</string>
@@ -24,6 +27,16 @@
     <string name="calc_error_toast">No number of nights!</string>
 
     <string name="gallery_header">Gallery</string>
+
+    <string name="kalender_header">Calender</string>
+
+    <string name="info_header">Infos</string>
+    <string name="infos">Our holiday Home is located in Gottmadingen in south west Germany. \n\n Up to five people can live in the apartement. You can also bring your kids. \n\n
+    The apartment includes a bedroom with a big bed for two, a living room with place for the other three beds, there is also a small bathroom and a kitchen with all the equipment you need \n\n
+    You also have access to a terrace where you can enjoy the sun. If you like you can also use the Garden behind the house. \n\n
+    About us: We are Susanne and Stefan Burger. Our four sons aren\'t here often anymore. \n\n
+    The holiday home is in our house but mostly cut off from the part we live in. \n\n
+    We also like to travel and know what kind of things you are looking for when living in a holiday home, so we try to provide everything we would want to have.</string>
 
     <string name="hello">Welcome in Gottmadingen in the Hegau!</string>
     <string name="hello2">In our holiday home you can relax and explore the beautiful countryside, such as the Rheinfall or the Mainau. You can go for a swim in lake Konstanz or even go hiking in the alps.</string>

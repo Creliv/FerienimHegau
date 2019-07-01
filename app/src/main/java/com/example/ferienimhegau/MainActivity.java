@@ -3,9 +3,6 @@ package com.example.ferienimhegau;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.v4.view.GravityCompat;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
@@ -85,12 +82,15 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
             Intent intent = new Intent (this, GalleryActivity.class);
             startActivity(intent);
-
         } else if (id == R.id.nav_Calculator) {
             Intent intent = new Intent(this, CalcActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_tools) {
-
+            Intent intent = new Intent(this, InfoActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_calender) {
+            Intent intent = new Intent(this, kalenderActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_mail) {
             Intent intent = new Intent(Intent.ACTION_SEND);
             intent.setType("plain/text");

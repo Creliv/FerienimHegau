@@ -16,12 +16,24 @@
             android:id="@+id/nav_Calculator"
             android:icon="@android:drawable/ic_dialog_dialer"
             android:title="@string/menu_calc" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@android:drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
     </group>
 
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@android:drawable/ic_menu_mapmode"
+                android:title="@string/menu_map" />
+            <item
+                android:id="@+id/nav_calender"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="@string/menu_kalender" />
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/menu_tools" />
+        </menu>
+    </item>
     <item android:title="Communicate">
         <menu>
             <item
