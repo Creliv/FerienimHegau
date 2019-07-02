@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Ferien im Hegau</string>
+    <string name="navigation_drawer_open">Navigation öffnen</string>
+    <string name="navigation_drawer_close">Navigation schließen</string>
+    <string name="nav_header_title">Ferien im Hegau</string>
+    <string name="nav_header_subtitle">www.ferienimhegau.de</string>
+    <string name="nav_header_desc">Navigations header</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallerie</string>
+    <string name="menu_calc">Rechner</string>
+    <string name="menu_tools">Infos</string>
+    <string name="menu_mail">E-Mail</string>
+    <string name="menu_call">Anrufen</string>
+    <string name="menu_map">Maps</string>
+    <string name="menu_kalender">Kalender</string>
+
+    <string name="menu_info_header">Informationen</string>
+    <string name="menu_call_header">Kontakt</string>
+
+    <string name="color">Farbe ändern</string>
+
+    <string name="email_subject">Ferienwohnungsanfrage</string>
+    <string name="calc_header">Preis Rechner</string>
+    <string name="calc_heada">Anzahl Erwachsene auswählen</string>
+    <string name="calc_headc">Anzahl Kinder auswählen (jünger als 12)</string>
+    <string name="calc_headn">Anzahl Nächte</string>
+    <string name="calc_button">Berechnen!</string>
+    <string name="calc_error">Falsche Eingabe (Max 5 Personen)</string>
+    <string name="calc_error_toast">Keine Anzahl Nächte angegeben!</string>
+
+    <string name="gallery_header">Galerie</string>
+
+    <string name="kalender_header">Kalender</string>
+
+    <string name="info_header">Infos</string>
+    <string name="infos">Unsere Ferienwohnung ist in Gottmadingen im Süd-Westen Deutschlands. \n\n Es passen bis zu 5 Personen in die Ferienwohnung. Für Kinder (unter 12) gibt es einen Rabatt. \n\n
+    In der Wohnung gibt es ein Schlafzimmer mit zwei Betten, ein Wohnzimmer wo platz für die anderen drei Betten ist, außerdem gibt es ein kleines Bad und eine Küche mit allen nötigen Geräten.\n\n
+    Sie können außerdem die Terrasse und den Garten mitbenutzen um zum Beispiel die Sonne zu genießen.\n\n
+    Noch ein wenig zu uns: Wir sind Susanne und Stefan Burger. Unser vier Söhne sind inzwischen nicht mehr oft zuhause.\n\n
+    Die Ferienwohnung selbst ist in unserem Haus, jedoch komplett getrennt. Nur die Terassen sind nahe aneinander.\n\n
+    Wir reisen selbst auch sehr gerne und wissen dementsprechend was man in einer Ferienwohnung braucht. Deshalb versuchen wir also genau diese Sachen bereit zu stellen</string>
+
+    <string name="hello">Willkommen in Gottmadingen im Hegau!</string>
+    <string name="hello2">Unsere Ferienwohnung bietet Ihnen Erholung in Ruhe und doch mit vielen Möglichkeiten. Nutzen Sie die wunderschöne Umgebung für lange Wanderungen, Fahrradtouren und Spaziergänge. Besuchen Sie den Rheinfall oder die Blumeninsel Mainau, unternehmen Sie eine Schifffahrt auf dem Bodensee oder lassen Sie sich den Rhein hinunter treiben.</string>
+</resources>

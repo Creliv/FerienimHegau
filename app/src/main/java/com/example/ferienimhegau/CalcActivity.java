@@ -27,12 +27,12 @@ public class CalcActivity extends AppCompatActivity {
         setContentView(R.layout.activity_calc);
         //setTitle(@string/calc_header);
         Log.d(TAG, "Display Image in 3rd Activity");
-        adult = findViewById(R.id.spinner);
+        adult = findViewById(R.id.spinner4);
         String[] items = new String[]{"1","2","3","4","5"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(CalcActivity.this, android.R.layout.simple_spinner_dropdown_item, items);
         adult.setAdapter(adapter);
 
-        child = findViewById(R.id.spinner4);
+        child = findViewById(R.id.spinner);
         /*String[] itemsc = new String[5-adults];
         switch(adults){
             case (1): itemsc[0] = "1";

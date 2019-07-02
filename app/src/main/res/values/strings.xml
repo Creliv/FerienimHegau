@@ -16,11 +16,15 @@
     <string name="menu_map">Maps</string>
     <string name="menu_kalender">Calender</string>
 
+    <string name="menu_info_header">Information</string>
+    <string name="menu_call_header">Communicate</string>
+
+    <string name="color">Change color</string>
 
     <string name="email_subject">Holiday apartment enquiry</string>
     <string name="calc_header">price calculator</string>
     <string name="calc_heada">Choose adults</string>
-    <string name="calc_headc">Choose children</string>
+    <string name="calc_headc">Choose children (younger than 12)</string>
     <string name="calc_headn">Number of nights</string>
     <string name="calc_button">Calculate!</string>
     <string name="calc_error">Wrong Parameters (Max 5 people)</string>

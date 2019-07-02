@@ -18,12 +18,8 @@
             android:title="@string/menu_calc" />
     </group>
 
-    <item android:title="Information">
+    <item android:title="@string/menu_info_header">
         <menu>
-            <item
-                android:id="@+id/nav_map"
-                android:icon="@android:drawable/ic_menu_mapmode"
-                android:title="@string/menu_map" />
             <item
                 android:id="@+id/nav_calender"
                 android:icon="@android:drawable/ic_menu_my_calendar"
@@ -34,7 +30,7 @@
                 android:title="@string/menu_tools" />
         </menu>
     </item>
-    <item android:title="Communicate">
+    <item android:title="@string/menu_call_header">
         <menu>
             <item
                 android:id="@+id/nav_mail"

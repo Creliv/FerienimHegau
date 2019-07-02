@@ -37,6 +37,10 @@
             android:name=".kalenderActivity"
             android:parentActivityName=".MainActivity"
             android:label="@string/kalender_header"></activity>
+        <activity
+            android:name=".ColorActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/kalender_header"></activity>
     </application>
 
 
